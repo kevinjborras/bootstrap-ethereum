@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);}
+
+a:active {
+    color: rgb(0, 0, 0);}
+
+.navbar-nav {
+    color: rgb(255, 0, 0);
+}
+
+.cuerpo {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.centering { /*PARA HACER QUE LA IMAGEN TOME EL CENTRO*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.centering-logo { /*PARA HACER QUE EL LOGO TOME EL CENTRO*/
+    border: 5cm;
+    border-width: 10px;
+    border-color: rgb(143,149,171);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.imagenp {
+    float: left;
+    height: 300px;
+    margin: 10px;
+}
+
+.textimagen {
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.footer {
+    font-size: 12px;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(244,128,103);
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+}
+
+.fa-brands {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+#logo {
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0px;
+    padding: 15px;
+}
+
+/*COINGECKO*/
+
+.coingecko {
+    margin: 10px;
+}
+
+/*Galeria*/
+
+.container {
+    padding: 3rem;
+}
+
+h1,h2,h3,h3,h4,h5 {
+    padding: 10px;
+    text-align: center;
+}
+
+.imagen {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5 ease;
+    background-color: rgba(255, 255, 255,0.9);
+}
+
+.caption {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.thumbnail:hover {
+    transform: translateY(-4px);
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+}
+
+/*Body tags*/
+
+button {
+    padding: 10px;
+    margin: 10px;
+}
